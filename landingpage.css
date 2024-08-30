@@ -1,0 +1,169 @@
+body{
+    background-color: bisque;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #333;
+    padding: 20px ;
+}
+.logo h1 {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: algerian;
+    padding: 0px;
+    margin: 0;
+
+}
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    color: #d0c034;
+    border-radius: 5px;
+    
+}
+.nav-links .button {
+    background-color: #007bff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.nav-links .button:hover {
+    background-color: #0056b3; 
+}
+
+.nav-links .button::after {
+    display: none; 
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    max-height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    
+}
+.search-input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.search-button {
+    background-color: #007BFF;
+    border: none;
+    padding: 11px 21px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1); 
+}
+.image-container
+{
+        padding-left: 50px;
+        width: 300px; 
+        padding-left: 1080px;
+        padding-top: 80px;
+        padding-bottom: 50px;
+   
+}
+img{
+    border-radius: 50px;
+  
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.about{
+
+    margin-top: -380px;
+  position: relative;
+  top: -10px;
+  margin-left: 380px;
+  transform: translateY(-10px);
+  font-size: 20px;
+}
+p{
+    margin-left: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        text-align: justify; 
+    font-size: 18px;
+}
+br{
+    margin-left: 2px;
+}
+.imageline{
+    display:flex;
+    display: inline-block; 
+    padding: 50px;
+    margin-right: 80px;
+    gap: 200px;
+    border-radius: 200px;
+    transition: transform 0.3s ease;
+}
+.imageline:hover
+{
+    transform: scale(1.1);
+    
+}
+.book
+{
+   
+    display: flex;
+    display: inline-block;
+    font-family: algerian;
+    margin-right: 300px;
+    margin-left: 100px;
+    gap: 200px;
+
+}
+.book1{
+    display: flex;
+    display: inline-block;
+    padding: 30px;
+    margin-right: 50px;
+    font-family:algerian;
+}
